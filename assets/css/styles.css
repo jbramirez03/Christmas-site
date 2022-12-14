@@ -613,6 +613,16 @@ button {
 
 /*=============== SCROLL BAR ===============*/
 
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: hsl(355, 8%, 44%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(355, 32%, 17%);
+  border-radius: 1rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
