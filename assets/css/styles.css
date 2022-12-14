@@ -111,6 +111,17 @@ button {
 }
 
 /*=============== THEME ===============*/
+.nav__btns {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.change-theme {
+  color: var(--title-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
 
 /*========== Variables Dark theme ==========*/
 
