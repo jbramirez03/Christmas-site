@@ -607,6 +607,10 @@ button {
 
 /* Show Scroll Up*/
 
+.show-scroll {
+  bottom: 3rem;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== BREAKPOINTS ===============*/
