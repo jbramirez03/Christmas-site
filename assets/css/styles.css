@@ -664,6 +664,22 @@ body.dark-theme {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .giving__container {
+    gap: 1rem;
+  }
+
+  .gift__container {
+    grid-template-columns: 150px;
+    justify-content: center;
+  }
+}
+
 /* For medium devices */
 
 /* For large devices */
