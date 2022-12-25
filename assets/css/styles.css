@@ -132,10 +132,30 @@ body.dark-theme {
   --container-color: hsla(355, 16%, 16%);
 }
 
-/*========== 
-    Color changes in some parts of 
-    the website, in dark theme 
-==========*/
+.dark-theme .scroll-header,
+.dark-theme .nav__menu {
+  box-shadow: 0 2px 4px hsla(0, 0%, 4%, 0.3);
+}
+
+.dark-theme .message__container {
+  background-color: var(--container-color);
+}
+
+.dark-theme .message__input {
+  background-color: var(--body-color);
+}
+
+.dark-theme .message__button {
+  background-color: var(--first-color);
+}
+
+.dark-theme .message__button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.dark-theme::-webkit-scrollbar {
+  background: hsl(355, 8%, 30%);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
